@@ -1,26 +1,11 @@
 {
-  "name": "minecraft-afk-bot",
+  "name": "AFKBot",
   "version": "1.0.0",
-  "description": "An AFK Minecraft bot that moves on-site to keep Servers and farms active 24/7.",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "node bot.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ninja-Yubaraj/Minecraft-AFK-Bot.git"
-  },
-  "author": "Yubaraj Sarkar",
-  "license": "",
-  "bugs": {
-    "url": "https://github.com/Ninja-Yubaraj/Minecraft-AFK-Bot/issues"
-  },
-  "homepage": "https://github.com/Ninja-Yubaraj/Minecraft-AFK-Bot#readme",
   "dependencies": {
-    "mineflayer": "^4.35.0"
-  },
-  "devDependencies": {
-    "dotenv": "^17.3.1"
+    "mineflayer": "^4.20.0"
   }
 }
