@@ -6,9 +6,9 @@ const mineflayer = require('mineflayer');
 
 function createAfkBot() {
   const bot = mineflayer.createBot({
-    host: process.env.SERVER_HOST,
-    port: Number(process.env.SERVER_PORT),
-    username: process.env.BOT_USERNAME,
+    host: technosmp.seedloaf.gg
+    port: 61412,
+    username: AFKBot,
     auth: 'offline',
     version: process.env.MC_VERSION === "false" ? false : process.env.MC_VERSION,
     viewDistance: Number(process.env.BOT_CHUNK)
